@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabWork_IUCA", "LabWork_IUCA\LabWork_IUCA.csproj", "{2353E135-E3F6-4868-94FD-6816A55FE4FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLabsV04.DAL", "WebLabsV04.DAL\WebLabsV04.DAL.csproj", "{4CBEBC75-0EB5-4873-994D-6FEFB7BD2237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2353E135-E3F6-4868-94FD-6816A55FE4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2353E135-E3F6-4868-94FD-6816A55FE4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2353E135-E3F6-4868-94FD-6816A55FE4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2353E135-E3F6-4868-94FD-6816A55FE4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBEBC75-0EB5-4873-994D-6FEFB7BD2237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBEBC75-0EB5-4873-994D-6FEFB7BD2237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBEBC75-0EB5-4873-994D-6FEFB7BD2237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBEBC75-0EB5-4873-994D-6FEFB7BD2237}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D84D1F5D-3FFC-421A-BC39-AB4584027721}
+	EndGlobalSection
+EndGlobal

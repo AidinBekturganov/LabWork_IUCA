@@ -1,0 +1,14 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using Microsoft.AspNetCore.Identity;
+@using WebLabsV04.DAL.Entities;
+@inject SignInManager<ApplicationUser> signInManager
+
+<a asp-controller="Cart" asp-action="Index"
+   class="navbar-text ml-auto">
+
+    00,0 руб.(0)
+    <i class="fa fa-shopping-cart nav-color"></i>
+</a>
+
