@@ -69,12 +69,13 @@ namespace LabWork_IUCA.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = new ApplicationUser { UserName = Input.Email, Email = Input.Email };
-                var result = await _userManager.CreateAsync(user, Input.Password);
                 if (Input.Avatar != null)
                 {
                     user.AvatarImage = new byte[(int)Input.Avatar.Length];
                     await Input.Avatar.OpenReadStream().ReadAsync(user.AvatarImage, 0, (int)Input.Avatar.Length);
                 }
+                var result = await _userManager.CreateAsync(user, Input.Password);
+                
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
