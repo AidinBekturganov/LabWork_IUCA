@@ -10,7 +10,7 @@ using WebLabsV04.DAL.Data;
 namespace WebLabsV04.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210406102153_Avatar")]
+    [Migration("20210406194151_Avatar")]
     partial class Avatar
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

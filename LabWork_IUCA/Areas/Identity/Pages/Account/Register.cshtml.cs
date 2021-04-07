@@ -73,14 +73,7 @@ namespace LabWork_IUCA.Areas.Identity.Pages.Account
                 if (Input.Avatar != null)
                 {
                     user.AvatarImage = new byte[(int)Input.Avatar.Length];
-                    await Input.Avatar
-
-                    .OpenReadStream()
-                    .ReadAsync(
-                    user.AvatarImage,
-                    0,
-                    (int)Input.Avatar.Length);
-
+                    await Input.Avatar.OpenReadStream().ReadAsync(user.AvatarImage, 0, (int)Input.Avatar.Length);
                 }
                 if (result.Succeeded)
                 {
